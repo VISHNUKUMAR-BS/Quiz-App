@@ -1,40 +1,96 @@
 const questions = [
     {
-        question: "Which is the largest animal in the world?",
+        question: "A Triac has three terminals viz ........",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Girafee", correct: false},
+            {text: "Drain,source,gate", correct: false},
+            {text: "Two main terminal and a gate terminal", correct: true},
+            {text: "Cathode,anode,gate", correct: false},
+            {text: "None of the above", correct: false},
         ]
     },
     {
-        question: "Which is the smallest country in the world?",
+        question: "A diac has ........ terminals",
         answers: [
-            {text: "Vatican City", correct: true},
-            {text: "Bhutan", correct: false},
-            {text: "Nepal", correct: false},
-            {text: "Sri Lanka", correct: false},
+            {text: "Two", correct: true},
+            {text: "Three", correct: false},
+            {text: "Four", correct: false},
+            {text: "None of the above", correct: false},
         ]
     },
     {
-        question: "Which is the largest desert in the world?",
+        question: "The current out of ideal current source is",
         answers: [
-            {text: "Kalahari", correct: false},
-            {text: "Gobi", correct: false},
-            {text: "Sahara", correct: false},
-            {text: "Antarctica", correct: true},
+            {text: "Zero", correct: false},
+            {text: "Constant", correct: true},
+            {text: "Load resistance dependent", correct: false},
+            {text: "Internal resistance dependent", correct: false},
         ]
     },
     {
-        question: "Which is the smallest continent in the world?",
+        question: "In a constanct voltage DC circuit, when the resistance increases, the current will",
         answers: [
-            {text: "Asia", correct: false},
-            {text: "Australia", correct: true},
-            {text: "Arctic", correct: false},
-            {text: "Africa", correct: false},
+            {text: "Decrease", correct: true},
+            {text: "Stop", correct: false},
+            {text: "Increase", correct: false},
+            {text: "Remains constant", correct: false},
         ]
-    }
+    },
+    {
+        question: "The triac is ........",
+        answers: [
+            {text: "Like a bidirectional SCR ", correct: true},
+            {text: "A four-terminal device", correct: false},
+            {text: "Not a thyristor", correct: false},
+            {text: "Answers(1) and (2)", correct: false},
+        ]
+    },
+    {
+        question: "The UJT may be used us ........",
+        answers: [
+            {text: "An amplifer", correct: false},
+            {text: "A sawtooth generator", correct: true},
+            {text: "A rectifier", correct: false},
+            {text: "None of the above", correct: false},
+        ]
+    },
+    {
+        question: "The voltage out of ideal current source is",
+        answers: [
+            {text: "Zero", correct: false},
+            {text: "Constant", correct: true},
+            {text: "Load resistance dependent", correct: false},
+            {text: "Internal resistance dependent", correct: false},
+        ]
+    },
+    {
+        question: "The unit of electrical reisitance is",
+        answers: [
+            {text: "Volt", correct: false},
+            {text: "amp", correct: false},
+            {text: "Ohm", correct: true},
+            {text: "Coulomb", correct: false},
+        ]
+    },
+    {
+        question: "The unit of current is",
+        answers: [
+            {text: "Volt", correct: false},
+            {text: "amp", correct: true},
+            {text: "Ohm", correct: false},
+            {text: "Coulomb", correct: false},
+        ]
+    },
+    {
+        question: "The unit of voltage is",
+        answers: [
+            {text: "Coulomb", correct: false},
+            {text: "amp", correct: false},
+            {text: "Ohm", correct: false},
+            {text: "Volt", correct: true},
+        ]
+    },
+
+    
 ]
 const questionEl = document.getElementById("question")
 const answerButton = document.getElementById("answer-buttons")
@@ -120,4 +176,3 @@ nextButton.addEventListener('click', function(){
     }
 })
 startQuiz()
-
